@@ -1,13 +1,15 @@
 const API_URLS = {
   1: 'https://blockscout.com/eth/mainnet/',
   // 1101: 'https://integration-blockscout.celo-testnet.org/api'
-  1101: 'http://localhost:4000/api'
+  1101: 'http://localhost:4000/api',
+  44787:'https://alfajores-blockscout.celo-testnet.org/api'
 }
 
 const BLOCKSCOUT_URLS = {
   1: 'https://blockscout.com/eth/mainnet/',
   // 1101: 'https://integration-blockscout.celo-testnet.org'
-  1101: 'http://localhost:4000'
+  1101: 'http://localhost:4000',
+  44787: 'https://alfajores-blockscout.celo-testnet.org/address'
 }
 
 const RequestStatus = {
